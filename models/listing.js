@@ -6,6 +6,7 @@ const { ref, required } = require("joi");
 
 const listingSchema = new Schema({
     title: String,
+    category: String,
     description: String,
     image: {
         url: String,
